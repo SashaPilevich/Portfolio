@@ -20,19 +20,19 @@
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="lng-nav-link" href="#contacts">Contacts</a>
-          </li>
-          <li class="nav-item">
             <a class="lng-nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="lng-nav-link" href="#english">English</a>
+            <a class="lng-nav-link" href="#skills">Hard Skills</a>
           </li>
           <li class="nav-item">
             <a class="lng-nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="lng-nav-link" href="#factsaboutme">Facts about me</a>
+            <a class="lng-nav-link" href="#english">English</a>
+          </li>
+          <li class="nav-item">
+            <a class="lng-nav-link" href="#contacts">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -44,11 +44,11 @@
       </div>
       <nav class="nav-mobile">
         <ul class="nav-mobile-list">
-          <li class="nav-mobile-item"><a class="nav-mobile-link" href="#contacts">Contacts</a></li>
           <li class="nav-mobile-item"><a class="nav-mobile-link" href="#education">Education</a></li>
-          <li class="nav-mobile-item"><a class="nav-mobile-link" href="#english">English</a></li>
+          <li class="nav-mobile-item"><a class="nav-mobile-link" href="#skills">Hard Skills</a></li>
           <li class="nav-mobile-item"><a class="nav-mobile-link" href="#projects">Projects</a></li>
-          <li class="nav-mobile-item"><a class="nav-mobile-link" href="#factsaboutme">Facts about me</a></li>
+          <li class="nav-mobile-item"><a class="nav-mobile-link" href="#english">English</a></li>
+          <li class="nav-mobile-item"><a class="nav-mobile-link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
       </div>
@@ -63,7 +63,7 @@
           <div class="profile-info">
             <h1>Frontend Developer</h1>
             <h2 class="lng-profile-title">Hi, My name is Aleksandra Bobrovich.</h2> 
-            <p class="lng-profile-description">By the time I was thirty, I had become a frontend developer. I have experience in creating apps of
+            <p class="lng-profile-description">I have experience in creating apps of
               various levels of complexity. I also
               improve and expand my knowledge (I
               take training in RSSchool, and I am in
@@ -81,22 +81,18 @@
         </div>
         </div>
       </section>
-    <section id="contacts">
-      <div class="container">
-        <h2 class="lng-title">Contacts</h2>
-            <ul>
-              <li class="contact"><a class="contact-text" href="mailto:bobrovichalexandra10@gmail.com" target="_blank" rel="noopener">Email</a></li>
-              <li class="contact"><a class="contact-text" href="https://t.me/sashabobrovich" target="_blank" rel="noopener">Telegram</a></li>
-              <li class="contact"><a class="contact-text" href="https://www.linkedin.com/in/alexBobrovich/" target="_blank" rel="noopener">Linkedin</a></li>
-            </ul>
-      </div>
-    </section>
     <section id="education">
       <div class="container">
         <h2 class="lng-title">Education and courses</h2>
         <div class="education-container">
           <div class="education-item">
-            <p class="lng-education-date">December 2022 - now</p>
+            <p class="lng-education-date">March 2023 - now</p>
+            <p class="lng-education-specialize">JS/FE 2023Q1</p>
+            <p class="lng-education-place">Rolling Scopes School</p>
+            <div class="line"></div>
+          </div>
+          <div class="education-item">
+            <p class="lng-education-date">December 2022 - March 2023</p>
             <p class="lng-education-specialize">JS/FE Pre-School 2022Q4</p>
             <p class="lng-education-place">Rolling Scopes School</p>
             <div class="line"></div>
@@ -116,16 +112,23 @@
         </div>
       </div>
     </section>
-    <section id="english">
+    <section id="skills">
       <div class="container">
-        <h2 class="lng-title">English</h2>
-        <div class="english-container">
-          <p class="lng-english-text">A2 in progress</p>
-        </div>
-        <div class="english-scale">
-          <span class="english-loader"></span>
-          <span class="percent"></span>
-        </div>
+        <h2 class="lng-title">Hard Skills</h2>
+        <ul class="skills-container">
+          <li class="skills-item">HTML5</li>
+          <li class="skills-item">CSS3</li>
+          <li class="skills-item">SASS</li>
+          <li class="skills-item">JavaScript</li>
+          <li class="skills-item">TypeScript</li>
+          <li class="skills-item">ReactJs</li>
+          <li class="skills-item">Redux</li>
+          <li class="skills-item">RestApi</li>
+          <li class="skills-item">Webpack</li>
+          <li class="skills-item">Gulp</li>
+          <li class="skills-item">Git</li>
+          <li class="skills-item">Figma</li>
+        </ul>
       </div>
     </section>
     <section id="projects">
@@ -133,6 +136,7 @@
         <h2 class="lng-title">Projects</h2>
         <div class="projects-slider">
         <div class="projects-container">
+          <!-- tasty -->
           <div class="project-item">
             <div class="project-image tasty">
               <img src="assets/img/tasty.jpg" alt="project-tasty">
@@ -164,6 +168,36 @@
               </div>
             </div>
           </div>
+          <!-- surgery -->
+          <div class="project-item">
+            <div class="project-image surgery">
+              <img src="assets/img/surgery.jpg" alt="project-tasty">
+            </div>
+            <div class="project-description">
+              <h3 class="project-title">Surgery.PRO</h3>
+              <span class="project-stack"
+                >HTML/CSS/JavaScript/SCSS/Gulp</span
+              >
+              <p class="lng-project-text">
+                A multi-page website developed in a team consisting of another frontend developer, project manager, UX/UI designer and two QA engineer.
+              </p>
+              <div class="project-link">
+                <a class="lng-project-view"
+                  href="https://SashaPilevich.github.io/SurgeryPro/dist/"
+                  target="_blank"
+                  rel="noopener"
+                  >See project</a
+                >
+                <a
+                  href="https://github.com/SashaPilevich/SurgeryPro/tree/develop"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- pinterest -->
           <div class="project-item">
             <div class="project-image pinterest">
               <img
@@ -195,6 +229,91 @@
               </div>
             </div>
           </div>
+          <!-- momentum -->
+          <div class="project-item">
+            <div class="project-image momentum">
+              <img src="assets/img/momentum.jpg" alt="project-momentum">
+            </div>
+            <div class="project-description">
+              <h3 class="project-title">Momentum (clone)</h3>
+              <span class="project-stack"
+                >HTML/CSS/JavaScript</span
+              >
+              <p class="lng-project-text">
+                Clone of the application "Momentum".
+              </p>
+              <div class="project-link">
+                <a class="lng-project-view"
+                  href="https://sashapilevich.github.io/Momentum/"
+                  target="_blank"
+                  rel="noopener"
+                  >See project</a
+                >
+                <a
+                  href="https://github.com/SashaPilevich/Momentum/tree/develop"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- registration -->
+          <div class="project-item">
+            <div class="project-image registration">
+              <img src="assets/img/registration.jpg" alt="project-registration">
+            </div>
+            <div class="project-description">
+              <h3 class="project-title">Registration form with validation</h3>
+              <span class="project-stack">HTML/CSS/SASS/JavaScript</span>
+              <p class="lng-project-text">
+                This is a registration form with validation.
+              </p>
+              <div class="project-link">
+                <a class="lng-project-view"
+                  href="https://sashapilevich.github.io/Registration-form-with-validation/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >See project</a
+                >
+                <a 
+                  href="https://github.com/SashaPilevich/Registration-form-with-validation/tree/develop"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- plants -->
+          <div class="project-item">
+            <div class="project-image plants">
+              <img src="assets/img/plants.jpg" alt="project-plants">
+            </div>
+            <div class="project-description">
+              <h3 class="project-title">Plants</h3>
+              <span class="project-stack">HTML/CSS/SASS/JavaScript</span>
+              <p class="lng-project-text">
+                This is a simple landing page with adaptive layout for
+                different devices.
+              </p>
+              <div class="project-link">
+                <a class="lng-project-view"
+                  href="https://sashapilevich.github.io/Plants/plants/"
+                  target="_blank"
+                  rel="noopener"
+                  >See project</a
+                >
+                <a 
+                  href="https://github.com/SashaPilevich/Plants"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- axit -->
           <div class="project-item">
             <div class="project-image axit">
               <img src="assets/img/axit.jpg" alt="project-axit">
@@ -222,6 +341,7 @@
               </div>
             </div>
           </div>
+          <!-- mogo -->
           <div class="project-item">
             <div class="project-image mogo">
               <img src="assets/img/mogo.jpg" alt="project-mogo">
@@ -258,30 +378,33 @@
         <span class="view-slide"></span>
         <span class="view-slide"></span>
         <span class="view-slide"></span>
+        <span class="view-slide"></span>
+        <span class="view-slide"></span>
+        <span class="view-slide"></span>
+        <span class="view-slide"></span>
       </div>
       </div>
     </section>
-    <section id="factsaboutme">
+    <section id="english">
       <div class="container">
-        <h2 class="lng-title">Some facts about me</h2>
-        <div class="facts-container">
-          <div class="facts-item">
-            <h3 class="random-number">7</h3>
-            <h4 class="lng-facts-text">kyu on Codewars</h4>
-          </div>
-          <div class="facts-item">
-            <h3 class="random-number">3</h3>
-            <h4 class="lng-facts-text">times a week study English</h4>
-          </div>
-          <div class="facts-item">
-            <h3 class="random-number">415</h3>
-            <h4 class="lng-facts-text">commits in 2022</h4>
-          </div>
-          <div class="facts-item">
-            <h3 class="random-number">6</h3>
-            <h4 class="lng-facts-text">applications developed in 2022</h4>
-          </div>
+        <h2 class="lng-title">English</h2>
+        <div class="english-container">
+          <p class="lng-english-text">B1 in progress</p>
         </div>
+        <div class="english-scale">
+          <span class="english-loader"></span>
+          <span class="percent"></span>
+        </div>
+      </div>
+    </section>
+    <section id="contacts">
+      <div class="container">
+        <h2 class="lng-title">Contacts</h2>
+            <ul>
+              <li class="contact"><a class="contact-text" href="mailto:pilevichsasha@gmail.com" target="_blank" rel="noopener">Email</a></li>
+              <li class="contact"><a class="contact-text" href="https://t.me/sashabobrovich" target="_blank" rel="noopener">Telegram</a></li>
+              <li class="contact"><a class="contact-text" href="https://www.linkedin.com/in/alexBobrovich/" target="_blank" rel="noopener">Linkedin</a></li>
+            </ul>
       </div>
     </section>
   </main>
@@ -296,7 +419,7 @@
     </button>
     <div class="container">
       <div class="footer-container">
-        <p class="lng-footer-date">2023 &copy; by Aleksandra Bobrovich for DataMola</p>
+        <p class="lng-footer-date">2023 &copy; by Aleksandra Bobrovich</p>
         <ul class="footer-social">
           <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/alexBobrovich/" target="_blank" rel="noopener"><i class="ico ico-linkedin"></i></a></li>
           <li class="social-item"><a class="social-link" href="https://github.com/SashaPilevich" target="_blank" rel="noopener"><i class="ico ico-github"></i></a></li>
