@@ -24,7 +24,7 @@ function offset(el) {
   return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
 }
 function increment() {
-  if (current <= 82) {
+  if (current <= 56) {
     current = current + 1;
     percent.innerHTML = current + "%";
     loader.classList.add("finish");
@@ -42,7 +42,7 @@ let viewSlide = 0
 viewSliders[0].classList.add('active')
 btnNext.addEventListener('click', () => {
   viewSliders[viewSlide].classList.remove('active')
-if(viewSlide < 3){
+if(viewSlide < 7){
   viewSlide++
 } else {
   viewSlide=0
@@ -55,7 +55,7 @@ btnPrev.addEventListener('click',() => {
   if(viewSlide > 0){
     viewSlide--
   } else {
-    viewSlide=3
+    viewSlide=7
   }
   viewSliders[viewSlide].classList.add('active')
   slider.style.left = -viewSlide * viewport + 'px'
